@@ -4,5 +4,15 @@
   "version": "0.1.0",
   "description": "This extension let you upload pictures, audios, videos, or other files to Entry community.",
   "permissions": [],
-  "icons": {}
+  "icons": {},
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "src/index.ts"
+      ]
+    }
+  ]
 }

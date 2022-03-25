@@ -1,7 +1,10 @@
 {
   "name": "entry-uploader",
   "version": "1.0.0",
-  "main": "index.js",
+  "scripts": {
+    "build": "parcel build ./manifest.json --target webext-prod",
+    "watch": "parcel watch ./manifest.json --host localhost --target webext-dev"
+  },
   "targets": {
     "webext-dev": {
       "sourceMap": {
