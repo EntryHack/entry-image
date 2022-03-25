@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name": "entry-uploader",
+  "version": "0.1.0",
+  "description": "This extension let you upload pictures, audios, videos, or other files to Entry community.",
+  "permissions": [],
+  "icons": {}
+}
