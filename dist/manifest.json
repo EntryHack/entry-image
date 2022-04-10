@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "entry-image",
+  "version": "2.0.0",
+  "description": "This extension let you upload pictures, audios, videos, or other files to Entry community.",
+  "permissions": [],
+  "icons": {},
+  "content_scripts": [
+    {
+      "matches": [
+        "*://playentry.org/*"
+      ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "js": [
+        "appendElements/inject.js"
+      ],
+      "css": [
+        "index.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "index.js"
+  ]
+}
