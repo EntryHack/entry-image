@@ -1,6 +1,0 @@
-  {
-    "extends": "@parcel/config-webextension",
-    "reporters": [
-      "parcel-reporter-web-ext"
-    ]
-  }
